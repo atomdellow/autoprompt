@@ -1,0 +1,113 @@
+{
+  "info": {
+    "_postman_id": "5a23c1b5-3a1d-40e6-8f7c-13c8d6a4e3bf",
+    "name": "AutoPrompt API",
+    "description": "Collection for the AutoPrompt project generator API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "health"
+          ]
+        },
+        "description": "Check if the API is running"
+      },
+      "response": []
+    },
+    {
+      "name": "Generate Code from Prompt",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"prompt\": \"Create a simple Express API with two endpoints: /users and /products. Include proper error handling and documentation.\",\n    \"name\": \"express-api-demo\",\n    \"outputPath\": \"C:/Users/adamd/OneDrive/Documents/Programming/projects/express-api-demo\",\n    \"projectType\": \"api\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/projects/generate-code",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "projects",
+            "generate-code"
+          ]
+        },
+        "description": "Generate code based on a prompt"
+      },
+      "response": []
+    },
+    {
+      "name": "Generate React App from Prompt",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"prompt\": \"Create a React app with a landing page, about page, and contact form. Use React Router for navigation.\",\n    \"name\": \"react-site-demo\",\n    \"projectType\": \"react\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/projects/generate-code",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "projects",
+            "generate-code"
+          ]
+        },
+        "description": "Generate a React application based on a prompt"
+      },
+      "response": []
+    },
+    {
+      "name": "Get All Apps",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/apps",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "apps"
+          ]
+        },
+        "description": "Get all applications"
+      },
+      "response": []
+    }
+  ]
+}

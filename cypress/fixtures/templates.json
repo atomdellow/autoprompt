@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "template1",
+    "name": "Basic Web Application",
+    "description": "Template for a simple web application",
+    "structure": "Create a web application using {languages} and {frameworks} with the following features:\n- User authentication\n- CRUD operations\n- Responsive design",
+    "technologies": {
+      "languages": ["JavaScript", "TypeScript", "HTML", "CSS"],
+      "frameworks": ["React", "Angular", "Vue", "Express"],
+      "databases": ["MongoDB", "PostgreSQL", "MySQL"],
+      "frontend": ["TailwindCSS", "Bootstrap", "Material UI"],
+      "backend": ["Node.js", "Express", "NestJS"],
+      "testing": ["Jest", "Testing Library", "Cypress"],
+      "devops": ["Docker", "GitHub Actions", "AWS"]
+    },
+    "bestPractices": {
+      "designPatterns": ["MVC", "Singleton", "Observer", "Factory"],
+      "principles": ["SOLID", "DRY", "KISS"]
+    }
+  },
+  {
+    "_id": "template2",
+    "name": "REST API",
+    "description": "Template for a RESTful API",
+    "structure": "Create a RESTful API using {languages} and {frameworks} with {databases} for data storage. Implement the following endpoints:\n- User management\n- Authentication\n- Resource management",
+    "technologies": {
+      "languages": ["JavaScript", "TypeScript", "Python", "Java"],
+      "frameworks": ["Express", "NestJS", "FastAPI", "Spring Boot"],
+      "databases": ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
+      "frontend": [],
+      "backend": ["Node.js", "Express", "NestJS", "FastAPI"],
+      "testing": ["Jest", "Mocha", "Chai", "Supertest"],
+      "devops": ["Docker", "GitHub Actions", "Travis CI", "AWS"]
+    },
+    "bestPractices": {
+      "designPatterns": ["Repository", "Dependency Injection", "Facade"],
+      "principles": ["SOLID", "DRY", "RESTful principles"]
+    }
+  }
+]

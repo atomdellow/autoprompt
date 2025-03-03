@@ -1,0 +1,45 @@
+.schedule-time-selector {
+  margin-bottom: 20px;
+}
+
+.date-time-fields {
+  display: flex;
+  gap: 15px;
+}
+
+.field-group {
+  flex: 1;
+}
+
+.field-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 500;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.form-control:focus {
+  border-color: #2196f3;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(33, 150, 243, 0.25);
+}
+
+.validation-error {
+  color: #f44336;
+  margin-top: 8px;
+  font-size: 0.9em;
+}
+
+@media screen and (max-width: 600px) {
+  .date-time-fields {
+    flex-direction: column;
+  }
+}

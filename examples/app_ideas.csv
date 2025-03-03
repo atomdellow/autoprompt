@@ -1,0 +1,11 @@
+title,description,path,languages,frameworks,status,scheduled,promptUsed
+Task Management System,A kanban-style task management app with real-time updates,/projects/task-manager,"JavaScript,TypeScript","Vue 3,Express,Socket.io",planned,2024-03-01,Create a real-time task management system with drag-and-drop capabilities
+Budget Tracker,Personal finance tracking app with expense categorization,/projects/budget-app,"JavaScript,Python","Vue 3,FastAPI",in-progress,2024-03-15,Build a finance tracking application with data visualization
+Recipe Manager,Recipe organization app with meal planning features,/projects/recipe-app,JavaScript,"Vue 3,Express",planned,2024-04-01,Develop a recipe management system with shopping list generation
+Workout Tracker,Fitness progress tracking with exercise library,/projects/fitness-app,"JavaScript,TypeScript","Vue 3,NestJS",planned,2024-04-15,Create a fitness tracking application with exercise demonstrations
+Blog Platform,Markdown-based blogging platform with SEO features,/projects/blog-system,"JavaScript,Node.js","Nuxt 3,Express",in-progress,2024-05-01,Build a modern blogging platform with SSR support
+Project Portfolio,Developer portfolio with project showcase,/projects/portfolio,"JavaScript,TypeScript",Nuxt 3,planned,2024-05-15,Design a developer portfolio with dynamic project display
+Notes App,Markdown note-taking app with tags and search,/projects/notes-app,JavaScript,"Vue 3,Express",planned,2024-06-01,Create a note-taking application with rich text support
+Time Tracker,Project time tracking with reporting features,/projects/time-tracker,"JavaScript,TypeScript","Vue 3,Express",planned,2024-06-15,Build a time tracking system with detailed reporting
+Weather Dashboard,Weather forecast app with location tracking,/projects/weather-app,JavaScript,"Vue 3,Express",planned,2024-07-01,Develop a weather dashboard with multiple location support
+Code Snippet Manager,Code snippet organization with syntax highlighting,/projects/snippet-manager,"JavaScript,TypeScript","Vue 3,Express",planned,2024-07-15,Create a code snippet management system with sharing features
